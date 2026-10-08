@@ -15,6 +15,7 @@
      - 이 단계는 organization에 참가한 인원들의 개인 계정으로도 가능하다.
 4. Repository 설정에서 해당 repository를 **Unfork->Archive->Private->Unarchive**하여 fork되지 않은 private repository로 만든다.
      - Fork된 repository는 private할 수 없고, Claude에 skill을 추가하기 위해서는 repository가 private하여야 하기 때문이다.
+     - 이 과정으로 인해 unfork, private으로 설정된 repository는 이름을 수정하여 모든 인원이 확인할 수 있도록 한다.
 5. Claude 설정에 들어가 skill을 추가한다.
      - 이 단계는 Claude Team plan 관계자만 가능한 것으로 파악되나, 관리자가 아닌 인원이 skill 추가를 요청할 수 있을 것으로 예상된다.
 6. Team 단위로 추가된 skill을 개인 계정에서 활성화하여 사용한다.
